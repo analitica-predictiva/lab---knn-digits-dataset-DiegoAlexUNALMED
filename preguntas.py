@@ -13,7 +13,7 @@ from sklearn import datasets
 
 def pregunta_01():
     """
-    Complete el código presentado a continuación.
+    Complete el código presentado a continuación
     """
 
     # Cargue el dataset digits
