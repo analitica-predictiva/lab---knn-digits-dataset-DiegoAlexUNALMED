@@ -13,14 +13,14 @@ from sklearn import datasets
 
 def pregunta_01():
     """
-    Complete el código presentado a continuación
+    Complete el código presentado a continuación.
     """
 
     # Cargue el dataset digits
     digits = datasets.load_digits()
     
     # Imprima los nombres de la variable target del dataset
-    print(digits.target)
+    print(pd.DataFrame(digits.target)[0].unique())
 
     # Imprima las dimensinoes de matriz de datos
     print(digits.data.shape)
