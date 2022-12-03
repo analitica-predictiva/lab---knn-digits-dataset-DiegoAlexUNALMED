@@ -34,7 +34,7 @@ def pregunta_02():
     Complete el código presentado a continuación.
     """
     # Importe KNeighborsClassifier de sklearn.neighbors
-    from ____ import ____
+    from ____ import ___d
 
     # Importe train_test_split de sklearn.model_selection
     from ____ import ____
