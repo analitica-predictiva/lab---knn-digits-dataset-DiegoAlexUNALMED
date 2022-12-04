@@ -31,7 +31,7 @@ def pregunta_01():
 
 def pregunta_02():
     """
-    Complete el código presentado a continuación..
+    Complete el código presentado a continuación.
     """
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
@@ -54,13 +54,13 @@ def pregunta_02():
     )
 
     # Cree un clasificador con siete vecinos
-    knn = KNeighborsClassifier(n_neighbors=6)
+    knn = KNeighborsClassifier(n_neighbors=5)
 
     # Entrene el clasificador
     knn.fit(X_train,y_train)
 
     # Imprima la precisión (score) del clasificador en el conjunto de datos de prueba
-    print(round(knn.score(X_train,y_train), 4))
+    print(round(knn.score(X_test,y_test), 4))
 
 
 def pregunta_03():
